@@ -1,0 +1,25 @@
+.top{
+    background-color:#333234;
+    display: flex;
+    min-height: 89px;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    margin: none;
+    @media (0<width<715px){
+        flex-direction: column;
+      }
+}
+
+.search{
+    background-color: transparent;
+    border: 1px solid red;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 15px;
+    padding: 0 10px;
+    &::placeholder{
+        color: white;
+    }
+}

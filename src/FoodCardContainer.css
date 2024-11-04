@@ -1,0 +1,7 @@
+.FoodCardContainer{ 
+    background-image: url("./bg2.png");  
+    min-height: 71vh;
+    background-size: cover; 
+}
+
+

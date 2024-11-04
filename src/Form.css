@@ -1,0 +1,51 @@
+.mainLogin{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: rgba(235, 10, 10, 0.678);
+    height: 280px;
+    width: 320px;
+    border-radius: 15px;
+   
+}
+
+.loginId{
+    background-color: rgba(236, 69, 69, 0.863);
+    color: white;
+    border: 1px solid white;
+    height: 35px;
+    border-radius: 15px;
+    width:200px;
+    margin-left: 55px;
+}
+
+.loginPass{
+    background-color: rgba(236, 69, 69, 0.863);
+    color: white;
+    border: 1px solid white;
+    height: 35px;
+    border-radius: 15px;
+    width:200px;
+    margin-left: 55px;
+}
+
+.loginBtn{
+    background-color:white;
+    color: rgba(235, 10, 10, 0.678);
+    width:200px;
+    border-radius: 15px;
+    height: 39px;
+    margin-left: 55px;
+}
+
+.loginBtn:hover{
+    background-color: whitesmoke;
+}
+
+input::placeholder{
+    color: white;
+}
